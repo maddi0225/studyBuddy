@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css\styleslab3.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/fa8e029df6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Breadbox</title>
+  </head>
+  <body>
+    <section>
+      <div id="title" class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">Breadbox</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Find new and delicious recipes!</h1>
+            <button
+              type="button"
+              name="button"
+              class="btn btn-dark btn-lg download-button"
+            >
+              <i class="fa-brands fa-apple"></i>   Download
+            </button>
+            <button
+              type="button"
+              name="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fa-brands fa-android"></i>   Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="images\bread1.png"
+              alt="iphone with study buddy app">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Features -->
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-check fa-3x"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, you can do it in your sleep!</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class=" icon fa-solid fa-utensils fa-3x"></i>
+          <h3>Fantastic Recipes</h3>
+          <p>We have recipes for all occasions.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-fire fa-3x"></i>
+          <h3>Guaranteed to be Delicious</h3>
+          <p>Always have something new to try.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-pause="hover"
+        data-interval="5000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              This is a one-way ticket to flavortown!
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images\bread2.jpg"
+              alt="guy"
+            />
+            <em>Guy Fieri, Flavortown</em>
+          </div>
+          <div class="carousel-item">
+            <h2>Maybe idiots can learn to make a sandwich.</h2>
+            <img
+              class="testimonial-image"
+              src="images\bread3.jpg"
+              alt="ramsay"
+            />
+            <em>Gordon Ramsay, Hell's Kitchen</em>
+          </div>
+          <div class="carousel-item">
+            <h2>
+              I have found so many recipes to cook for my grandkids!
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images\bread4.jpg"
+              alt="grandma"
+            />
+            <em>Grandma, Grandma's House</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="press">
+      <img
+        class="press-logo"
+        src="images\logo1.png"
+        alt="food network"
+      />
+      <img
+        class="press-logo"
+        src="images\logo2.png"
+        alt="real"
+      />
+      <img class="press-logo" src="images\logo3.png" alt="food" />
+      <img class="press-logo" src="images\logo4.png" alt="cooking channel" />
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+      <h2 class="pricing-header">A Plan for Every Chef's Budget</h2>
+      <p>Simple and affordable price plans for your cooking adventures.</p>
+
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Breadstick</h3>
+            </div>
+            <div class="card-body">
+              <p>Free</p>
+              <p>5 Recipes Per Week</p>
+              <p>10 Helpful Tips Per Week</p>
+              <p>Unlimited App Usage</p>
+              <button
+                class="btn btn-lg btn-block btn-outline-dark"
+                type="button"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Roll</h3>
+            </div>
+            <div class="card-body">
+              <p>2.99</p>
+              <p>10 Recipes Per Week</p>
+              <p>20 Helpful Tips Per Week</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Loaf</h3>
+            </div>
+            <div class="card-body">
+              <p>5.99</p>
+              <p>Exclusive Recipes</p>
+              <p>Unlimited Recipes Per Week</p>
+              <p>Unlimited Helpful Tips Per Week</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section id="cta">
+      <h3 class="cta-heading">Find your new favorite recipe today! Your kitchen awaits.</h3>
+      <button class="btn btn-lg btn-dark download-button" type="button">
+        <i class="fa-brands fa-apple"></i>     Download</button>
+      <button class="btn btn-lg btn-light download-button" type="button">
+        <i class="fa-brands fa-android"></i>    Download</button>
+    </section>
+
+    <footer id="footer">
+      <i class="social-icon fa-brands fa-square-facebook"></i>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <i class="social-icon fa-brands fa-square-twitter"></i>
+      <i class="social-icon fa-brands fa-square-snapchat"></i>
+      <p>Copyright 2022 Breadbox</p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
